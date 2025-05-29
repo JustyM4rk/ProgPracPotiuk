@@ -1,6 +1,6 @@
 package just.m4rk;
 
-class MyFirstThread extends Thread {
+class Prac2 extends Thread {
     @Override
     public void run() {
         String gn = getName();
@@ -32,7 +32,7 @@ class MyFirstThread extends Thread {
 public class main {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            MyFirstThread thread = new MyFirstThread();
+            Prac2 thread = new Prac2();
             thread.start();
         }
     }
