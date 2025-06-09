@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Prac3 extends JFrame {
+public class Prac4 extends JFrame {
 
     private JTextField textField;
 
-    public Prac3() {
+    public Prac4() {
         setTitle("Приклад JToolBar");
         setSize(500, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -80,6 +80,6 @@ public class Prac3 extends JFrame {
             e.printStackTrace();
         }
 
-        SwingUtilities.invokeLater(() -> new Prac3());
+        SwingUtilities.invokeLater(() -> new Prac4());
     }
 }
